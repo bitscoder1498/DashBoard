@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Server Monitoring</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link href="F:\\Dashboard2\layout.css" rel="stylesheet"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <style>
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #3e8e41;
+}
+
+.dropdown {
+  float: right;
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  right: 0;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+</style>
+
+
+ </head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><b>NDI-DASHBOARD</b></a>
+    </div>
+    <ul class="nav navbar-nav">
+     <!-- <li><a href="#">Home</a></li>
+      <li><a href="#">Page 1</a></li>
+      <li><a href="#">Page 2</a></li>
+	  -->
+    </ul>
+    <form class="navbar-form navbar-right" action="/action_page.php">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search" name="search">
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+  </div>
+ 
+<body>
+<div id="outer">
+<!--<div id="head">-->
+<!--<div id="hmid"><center>
+<br><b><font color = "red">SERVER-MONITORING</font></center></div> -->
+</nav>
+<div id="middle">
+<div id="left">
+<button class="collapsible" id ="l1">Production Servers</button>
+<div class="content">
+<button onclick="myFunction()" class="button">AOAAPLP00100.nbcuni.ge.com</button>
+<button onclick="myFunction1()" class="button">USHAPLP00123.tfayd.com</button>
+</div>
+<div id="l2"><br>server-name2</div>
+<div id="l3"><br>server-name3</div>
+<div id="l4"><br>server-name4</div>
+<div id="l5"><br>server-name5</div>
+<div id="l6"><br>server-name6</div>
+<div id="l7"><br>server-name7</div>
+<div id="l8"><br>server-name8</div>
+<div id="l9"><br>server-name9</div>
+<div id="l10"><br>server-name10</div>
+<div id="l11"><br>server-name11</div>
+<div id="l12"><br>server-name12</div>
+<div id="l13"><br>server-name13</div>
+</div>
+
+<script>
+			var coll = document.getElementsByClassName("collapsible");
+			var i;
+			for (i = 0; i < coll.length; i++) 
+			{
+				coll[i].addEventListener("click", function()
+				{
+					this.classList.toggle("active");
+					var content = this.nextElementSibling;
+					if (content.style.display === "block")
+					{
+						content.style.display = "none";
+					} 
+					else
+					{
+						content.style.display = "block";
+					}
+				});
+			}
+			
+		</script>
+		
+		<script>
+			function myFunction()
+			{
+				document.getElementById("Home").innerHTML = "The server name is AOAAPLP00100.nbcuni.ge.com";
+			}
+			function myFunction1()
+			{
+				document.getElementById("Home").innerHTML = "The server name is USHAPLP00123.tfayd.com";
+			}
+			function myFunction2()
+			{
+				document.getElementById("Home").innerHTML = "The server name is aoaapls00067.nbcuni.ge.com";
+			}
+			function myFunction3()
+			{
+				document.getElementById("Home").innerHTML = "The server name is ushaplp00037la.nbcuni.ge.com";
+			}
+			function myFunction4()
+			{
+				document.getElementById("Home").innerHTML = "The server name is AOAAPLD00051.nbcuni.ge.com";
+			}
+		</script>
+		<div id="footer"></div>
+</div>
+<div id="footer"></div>
+</body>
+</html>

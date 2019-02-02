@@ -1,0 +1,192 @@
+#outer
+{
+   width:auto;
+   height:auto;
+   background:grey;
+}
+
+ 
+#middle
+{
+	width:auto;
+	height:700px;
+	background: white;
+}
+#left
+{
+	width:200px;
+	height:700px;
+	background:#a6a6a6;
+}
+				.collapsible
+				{
+					background-color: #777;
+					color: white;
+					cursor: pointer;
+					padding: 18px;
+					width: 100%;
+					border: none;
+					text-align: left;
+					outline: none;
+					font-size: 15px;
+				}
+	
+				.active, .collapsible:hover
+				{
+					background-color: #555;
+				}
+				.content 
+				{
+					display: none;
+					overflow: hidden;
+				}
+				.button 
+				{
+					background-color: #4CAF50;
+					border: none;
+					color: white;
+					padding: 10px 25px;
+					text-align: center;
+					text-decoration: none;
+					display: inline-block;
+					font-size: 16px;
+					margin: 4px 2px;
+					cursor: pointer;
+				}
+				
+#l1
+{
+	width:200px;
+	height:50px;
+	float:left;	
+	background-color:grey;
+	text-align:center;
+	text-decoration:none;
+	border:solid 1px white;
+	
+}
+#l2
+{
+	width:200px;
+	height:50px;
+	float:left;	
+	background-color:grey;
+	text-align:center;
+	border:solid 1px white;
+}
+#l3
+{
+	width:200px;
+	height:50px;
+	float:left;	
+	background-color:grey;
+	text-align:center;
+	border:solid 1px white;
+}
+#l4
+{
+	width:200px;
+	height:50px;
+	float:left;	
+	background-color:grey;
+	text-align:center;
+	border:solid 1px white;
+}
+#l5
+{
+	width:200px;
+	height:50px;
+	float:left;	
+	background-color:grey;
+	text-align:center;
+	border:solid 1px white;
+}
+#l6
+{
+	width:200px;
+	height:50px;
+	float:left;	
+	background-color:grey;
+	text-align:center;
+	border:solid 1px white;
+	
+}
+#l7
+{width:200px;
+	height:50px;
+	float:left;	
+	background-color:grey;
+	text-align:center;
+	border:solid 1px white;
+}
+#l8
+{
+	width:200px;
+	height:50px;
+	float:left;	
+	background-color:grey;
+	text-align:center;
+	border:solid 1px white;
+}
+#l9
+{
+	width:200px;
+	height:50px;
+	float:left;	
+	background-color:grey;
+	text-align:center;
+	border:solid 1px white;
+}
+#l10
+{
+	width:200px;
+	height:50px;
+	float:left;	
+	background-color:grey;
+	text-align:center;
+	border:solid 1px white;
+}
+#l11
+{
+
+	width:200px;
+	height:50px;
+	float:left;	
+	background-color:grey;
+	text-align:center;
+	border:solid 1px white;	
+}
+#l12
+{
+	
+	width:200px;
+	height:50px;
+	float:left;	
+	background-color:grey;
+	text-align:center;
+	border:solid 1px white;
+}
+#l13
+{
+	
+	width:200px;
+	height:50px;
+	float:left;	
+	background-color:grey;
+	text-align:center;
+	border:solid 1px white;
+}
+
+#footer
+{
+	width:auto;
+	height:50px;
+	background:#007399;
+}
+.right {
+  position: absolute;
+  right: 0px;
+  width: 300px;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
